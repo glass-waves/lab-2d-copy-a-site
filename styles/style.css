@@ -1,0 +1,58 @@
+html,
+main,
+header {
+    width:100%;
+    margin:0;
+}
+header {
+    color:white;
+
+}
+header a {
+    text-decoration:none;
+    color:white;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background:#131921;
+    padding:10px; 
+    width:100%;
+    height:60px;
+    align-items:center;
+}
+.bottom-nav {
+    background-color:#232f3e;
+    display:grid;
+    grid-template-columns: 20% 60% 20% ;
+    height:40px;
+    align-items:center;
+    
+}
+.hamburger-icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+body {
+    background-color: lightyellow;
+}
+div {
+    border: solid 1px black;
+}
+.middle {
+    width: 80%;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 200px auto 0px auto;
+}
+.column-1 {
+    display:grid;
+    grid-template-rows: 100px 300px;
+    background-color: lightyellow;
+    grid-gap: 10px;
+}
+.column-1 div {
+    background-color:white;
+}
